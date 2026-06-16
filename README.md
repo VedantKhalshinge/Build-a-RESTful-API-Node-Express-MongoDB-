@@ -2,6 +2,10 @@
 
 A RESTful CRUD API for managing Tasks built with Node.js, Express, and MongoDB.
 
+## Developer Project Page (Frontend)
+
+This repository includes a custom, modern, minimal developer-focused landing page for the project. When the API server is running, you can view the portfolio page by navigating to `http://localhost:3000/` in your browser. The frontend files are located in the `public/` directory.
+
 ## Features
 
 - Complete CRUD functionality for Tasks
