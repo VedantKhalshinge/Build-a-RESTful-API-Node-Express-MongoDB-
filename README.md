@@ -1,4 +1,6 @@
 # Task API
+> **© 2026 Vedant Khalshinge. All Rights Reserved.**  
+> *This code is proprietary. Unauthorized copying, distribution, or use is strictly prohibited.*
 
 A RESTful CRUD API for managing Tasks built with Node.js, Express, and MongoDB.
 

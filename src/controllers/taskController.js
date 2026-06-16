@@ -1,3 +1,9 @@
+/**
+ * @project RESTful API (Node + Express + MongoDB)
+ * @author Vedant Khalshinge
+ * @copyright 2026 Vedant Khalshinge. All rights reserved.
+ * @description Unauthorized copying, modification, or distribution is strictly prohibited.
+ */
 const Task = require('../models/Task');
 
 // @desc    Get all tasks
@@ -91,3 +97,4 @@ module.exports = {
   updateTask,
   deleteTask,
 };
+

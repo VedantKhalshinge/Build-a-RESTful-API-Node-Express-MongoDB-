@@ -1,3 +1,9 @@
+/**
+ * @project RESTful API (Node + Express + MongoDB)
+ * @author Vedant Khalshinge
+ * @copyright 2026 Vedant Khalshinge. All rights reserved.
+ * @description Unauthorized copying, modification, or distribution is strictly prohibited.
+ */
 const mongoose = require('mongoose');
 
 const taskSchema = new mongoose.Schema(
@@ -24,3 +30,4 @@ const taskSchema = new mongoose.Schema(
 );
 
 module.exports = mongoose.model('Task', taskSchema);
+

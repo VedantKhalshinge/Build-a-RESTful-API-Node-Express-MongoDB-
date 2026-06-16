@@ -1,3 +1,9 @@
+/**
+ * @project RESTful API (Node + Express + MongoDB)
+ * @author Vedant Khalshinge
+ * @copyright 2026 Vedant Khalshinge. All rights reserved.
+ * @description Unauthorized copying, modification, or distribution is strictly prohibited.
+ */
 require('dotenv').config();
 const express = require('express');
 const morgan = require('morgan');
@@ -43,3 +49,4 @@ process.on('unhandledRejection', (err, promise) => {
   // Close server & exit process
   server.close(() => process.exit(1));
 });
+

@@ -1,3 +1,9 @@
+/**
+ * @project RESTful API (Node + Express + MongoDB)
+ * @author Vedant Khalshinge
+ * @copyright 2026 Vedant Khalshinge. All rights reserved.
+ * @description Unauthorized copying, modification, or distribution is strictly prohibited.
+ */
 const errorHandler = (err, req, res, next) => {
   let error = { ...err };
   error.message = err.message;
@@ -34,3 +40,4 @@ const errorHandler = (err, req, res, next) => {
 };
 
 module.exports = errorHandler;
+

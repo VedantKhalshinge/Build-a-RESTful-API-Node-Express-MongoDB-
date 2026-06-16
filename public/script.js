@@ -1,3 +1,9 @@
+/**
+ * @project RESTful API (Node + Express + MongoDB)
+ * @author Vedant Khalshinge
+ * @copyright 2026 Vedant Khalshinge. All rights reserved.
+ * @description Unauthorized copying, modification, or distribution is strictly prohibited.
+ */
 document.addEventListener("DOMContentLoaded", () => {
   const observerOptions = {
     root: null,
@@ -17,3 +23,4 @@ document.addEventListener("DOMContentLoaded", () => {
   const elementsToFade = document.querySelectorAll('.fade-up');
   elementsToFade.forEach(el => observer.observe(el));
 });
+

@@ -1,3 +1,9 @@
+/**
+ * @project RESTful API (Node + Express + MongoDB)
+ * @author Vedant Khalshinge
+ * @copyright 2026 Vedant Khalshinge. All rights reserved.
+ * @description Unauthorized copying, modification, or distribution is strictly prohibited.
+ */
 const runTests = async () => {
   const baseUrl = 'http://localhost:3000/api/tasks';
   
@@ -58,3 +64,4 @@ const runTests = async () => {
 
 // Wait a bit before testing to ensure server is ready
 setTimeout(runTests, 3000);
+

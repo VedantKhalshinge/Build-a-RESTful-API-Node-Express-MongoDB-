@@ -8,8 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Vedant Khalshinge",
+  "license": "UNLICENSED",
   "type": "commonjs",
   "dependencies": {
     "dotenv": "^17.4.2",

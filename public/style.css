@@ -1,3 +1,9 @@
+/**
+ * @project RESTful API (Node + Express + MongoDB)
+ * @author Vedant Khalshinge
+ * @copyright 2026 Vedant Khalshinge. All rights reserved.
+ * @description Unauthorized copying, modification, or distribution is strictly prohibited.
+ */
 :root {
   --bg-color: #FAFAFA;
   --text-color: #111827;
@@ -436,3 +442,4 @@ footer {
   .hero { padding: 60px 0 40px 0; }
   .details-grid { grid-template-columns: 1fr; }
 }
+
