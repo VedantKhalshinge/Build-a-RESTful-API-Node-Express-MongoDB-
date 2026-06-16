@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RESTful API - Project Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Hero Section -->
+    <header class="hero fade-up">
+      <div class="badges">
+        <span class="badge">Node.js</span>
+        <span class="badge">Express.js</span>
+        <span class="badge">MongoDB</span>
+        <span class="badge">Mongoose</span>
+        <span class="badge">REST API</span>
+        <span class="badge">JavaScript</span>
+        <span class="badge">Postman</span>
+      </div>
+      <h1>RESTful API <br><span class="subtitle-highlight">(Node.js + Express.js + MongoDB)</span></h1>
+      <p class="subtitle">A scalable CRUD REST API built using Express and MongoDB with Mongoose validation, structured routing, error handling, and clean architecture.</p>
+      <div class="hero-buttons">
+        <a href="#" class="btn btn-primary">View Repository</a>
+        <a href="#" class="btn btn-secondary">API Documentation</a>
+      </div>
+    </header>
+
+    <!-- Project Overview -->
+    <section class="overview fade-up">
+      <div class="card card-overview">
+        <h2>Project Goal</h2>
+        <p>Develop a RESTful CRUD API that manages resources such as Products or Tasks using Express.js and MongoDB. The API supports creating, reading, updating, and deleting records while following REST principles and clean backend architecture.</p>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features fade-up">
+      <div class="features-grid">
+        <div class="card">
+          <h3>✓ CRUD Operations</h3>
+          <ul>
+            <li>Create</li>
+            <li>Read</li>
+            <li>Update</li>
+            <li>Delete</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>✓ REST Endpoints</h3>
+          <ul>
+            <li>GET</li>
+            <li>POST</li>
+            <li>PUT / PATCH</li>
+            <li>DELETE</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>✓ MongoDB Integration</h3>
+          <ul>
+            <li>Mongoose Models</li>
+            <li>Schema Validation</li>
+            <li>Database Connection</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>✓ Error Handling</h3>
+          <ul>
+            <li>Centralized error middleware</li>
+            <li>Proper HTTP status codes</li>
+            <li>Validation errors</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>✓ Logging</h3>
+          <ul>
+            <li>Request logging</li>
+            <li>Error logging</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>✓ Clean Folder Structure</h3>
+          <ul>
+            <li>Routes</li>
+            <li>Controllers</li>
+            <li>Models</li>
+            <li>Middleware</li>
+            <li>Config</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- API Endpoints -->
+    <section class="endpoints fade-up">
+      <h2>API Endpoints</h2>
+      <div class="code-table">
+        <div class="table-row table-header">
+          <div class="method">METHOD</div>
+          <div class="route">ROUTE</div>
+        </div>
+        <div class="table-row">
+          <div class="method get">GET</div>
+          <div class="route">/api/tasks</div>
+        </div>
+        <div class="table-row">
+          <div class="method get">GET</div>
+          <div class="route">/api/tasks/:id</div>
+        </div>
+        <div class="table-row">
+          <div class="method post">POST</div>
+          <div class="route">/api/tasks</div>
+        </div>
+        <div class="table-row">
+          <div class="method put">PUT</div>
+          <div class="route">/api/tasks/:id</div>
+        </div>
+        <div class="table-row">
+          <div class="method patch">PATCH</div>
+          <div class="route">/api/tasks/:id</div>
+        </div>
+        <div class="table-row">
+          <div class="method delete">DELETE</div>
+          <div class="route">/api/tasks/:id</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tech Stack -->
+    <section class="tech-stack fade-up">
+      <h2>Tech Stack</h2>
+      <div class="tech-grid">
+        <div class="tech-card">Node.js</div>
+        <div class="tech-card">Express.js</div>
+        <div class="tech-card">MongoDB</div>
+        <div class="tech-card">Mongoose</div>
+        <div class="tech-card">JavaScript</div>
+        <div class="tech-card">Postman</div>
+        <div class="tech-card">Git</div>
+        <div class="tech-card">GitHub</div>
+      </div>
+    </section>
+
+    <!-- Database Flow -->
+    <section class="database-flow fade-up">
+      <h2>Database Flow</h2>
+      <div class="flow-container">
+        <div class="flow-step">Client</div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-step">Express Server</div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-step">Routes</div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-step">Controllers</div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-step">Mongoose Models</div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-step">MongoDB Database</div>
+      </div>
+    </section>
+
+    <!-- Folder Structure -->
+    <section class="folder-structure fade-up">
+      <h2>Folder Structure</h2>
+      <div class="code-block">
+<pre>project/
+│
+├── server.js
+├── config/
+├── models/
+├── routes/
+├── controllers/
+├── middleware/
+├── utils/
+├── .env.example
+├── README.md
+└── package.json</pre>
+      </div>
+    </section>
+
+    <!-- Validation -->
+    <section class="validation fade-up">
+      <h2>Validation</h2>
+      <div class="validation-grid">
+        <div class="val-card">✓ Required Fields</div>
+        <div class="val-card">✓ Email Validation</div>
+        <div class="val-card">✓ Schema Validation</div>
+        <div class="val-card">✓ Duplicate Handling</div>
+        <div class="val-card">✓ Invalid ID Handling</div>
+      </div>
+    </section>
+
+    <!-- Project Deliverables -->
+    <section class="deliverables fade-up">
+      <h2>Project Deliverables</h2>
+      <ul class="checklist">
+        <li>✔ Repository</li>
+        <li>✔ README</li>
+        <li>✔ Postman Collection</li>
+        <li>✔ .env.example</li>
+        <li>✔ CRUD API</li>
+        <li>✔ Error Handling</li>
+        <li>✔ MongoDB Integration</li>
+      </ul>
+    </section>
+
+    <!-- Details Grid: README and Env -->
+    <section class="details-grid fade-up">
+      <div class="card">
+        <h2>README Preview</h2>
+        <ul class="simple-list">
+          <li>Installation</li>
+          <li>Environment Variables</li>
+          <li>API Endpoints</li>
+          <li>Run Server</li>
+          <li>Testing</li>
+          <li>Postman Collection</li>
+        </ul>
+      </div>
+      
+      <div class="card">
+        <h2>Environment Variables</h2>
+        <div class="terminal-block">
+          <pre>PORT=5000
+
+MONGODB_URI=your_connection_string
+
+NODE_ENV=development</pre>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer class="fade-up">
+    <div class="footer-content">
+      <span>Built using</span>
+      <span class="footer-badge">Node.js</span>
+      <span class="footer-badge">Express.js</span>
+      <span class="footer-badge">MongoDB</span>
+      <span class="footer-badge">Mongoose</span>
+      <span class="footer-badge">REST Architecture</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
